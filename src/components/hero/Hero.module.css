@@ -1,3 +1,7 @@
+*{
+    font-family: 'outfit';
+    color: white;
+}
 .heroContainer{
     display: flex;
     flex-direction: column;
@@ -23,6 +27,12 @@
     font-size: 40px;
 
 }
+.description p{
+    width: 50%;
+    align-self: center;
+    font-size: 24px;
+    line-height: 40px;
+}
 
 .btnContainer {
     display: flex;
@@ -31,17 +41,38 @@
     gap: 25px;
 }
 
-.btnContainer button {
+.btnContactMe {
     padding: 10px 20px;
     border-radius: 50px;
     background: linear-gradient(267deg, #1c2190 0.36%, #8c1544 102.06%);
     color: white;
     border: none;
-    font-family: 'outfit';
     cursor: pointer;
     font-size: 22px;
     transition: 0.5s;
 }
-.btnContainer button:hover{
+
+.btnResume{
+    background: transparent;
+    border: 2px solid #fff;
+    padding: 10px 20px;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 22px;
+    transition: 0.5s;
+}
+.btnContactMe:hover{
+    border: 1px solid #fff;
     transform: scale(1.1);
+}
+.btnResume:hover{
+    border-color: #8c1544;
+    transform: scale(1.1);
+}
+
+.name{
+    background: linear-gradient(270deg, #1c2190 10%, #8c1544 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
