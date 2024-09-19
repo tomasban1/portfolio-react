@@ -1,10 +1,11 @@
-import styles from './Header.module.css'
+import styles from './Header.module.css';
+import logo from '../../assets/logo.svg';
 
 export function Header(){
     return (
      <header>
         <div className={styles.navContainer}>
-            <img src="" alt="logo" />
+            <img style={{width:100}} src={logo} alt="logo" />
             <ul className={styles.navMenu}>
                 <li>Home</li>
                 <li>About me</li>

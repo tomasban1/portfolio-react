@@ -1,0 +1,47 @@
+.heroContainer{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+    width: 100%;
+}
+
+.description{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    gap: 35px;
+    
+}
+
+.description h1{
+    text-align: center;
+    width: 70%;
+    font-size: 40px;
+
+}
+
+.btnContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+.btnContainer button {
+    padding: 10px 20px;
+    border-radius: 50px;
+    background: linear-gradient(267deg, #1c2190 0.36%, #8c1544 102.06%);
+    color: white;
+    border: none;
+    font-family: 'outfit';
+    cursor: pointer;
+    font-size: 22px;
+    transition: 0.5s;
+}
+.btnContainer button:hover{
+    transform: scale(1.1);
+}
