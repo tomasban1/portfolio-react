@@ -12,9 +12,35 @@
 
 .card{
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
+    gap: 15px;
     width: 350px;
-    height: 350px;
-    border: 1px solid white;
+    height: 550px;
+    border-width: 3px;
+    border-style: solid;
+    border-image: linear-gradient(to bottom, #1c2190, rgba(0, 0, 0, 0)) 1 100%;
+    font-size: 20px;
+        
+}
+.card > img{
+    width: 100%;
+    height: 250px;
+    margin-top: -3px;
+
+}
+
+.game{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    list-style:inside;
+        
+}
+.gameSummary {
+    background: linear-gradient(270deg, #1c2190 5%, #8c1544 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
