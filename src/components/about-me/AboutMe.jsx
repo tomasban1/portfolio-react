@@ -1,13 +1,17 @@
+/* eslint-disable react/no-unescaped-entities */
  
 import { aboutMeData } from '../data/aboutMeData';
 import styles from './AboutMe.module.css';
+import arrow from '../../assets/arrow2.png';
 
 
 export function AboutMe(){
     return (
         <div className={styles.about}>
-            <div style={{marginTop:40}}>
+            <div className={styles.aboutMeSection}>
                 <h1>About me</h1>
+                <h2 style={{textAlign:"center", width:800}}>I'm an active person, I go to the gym regularly, I believe a healthy body is a healthy mind! Look at the cards to find out more in detail.</h2>
+                <img src={arrow} alt="arrow" />
             </div>
             <div className={styles.section}>
                 {aboutMeData.map((item, index) => 

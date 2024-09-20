@@ -8,6 +8,20 @@
     align-items: center;
 }
 
+.aboutMeSection{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    gap: 30px;
+}
+.aboutMeSection > img{
+    width: 60px;
+   
+    
+}
+
 .section {
     color: white;
     min-height: 80vh;
