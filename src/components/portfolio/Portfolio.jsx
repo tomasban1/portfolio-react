@@ -3,7 +3,7 @@ import { portfolioData } from '../data/portfolioData';
 
 export function Portfolio(){
     return (
-      <div className={styles.topContainer}>
+      <div id='portfolio' className={styles.topContainer}>
         <div>
             <h1>Some of my projects:</h1>
         </div>
@@ -15,7 +15,7 @@ export function Portfolio(){
                 <ul className={styles.game}>
                   <li>{item.property1}</li>
                   <li>{item.property2}</li>
-                  <a href={item.link} target='_blank'>Game link here..</a>
+                  <a href={item.link} target='_blank'>Github pages link here..▶</a>
                 </ul>
               </div>
           )}

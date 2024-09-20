@@ -4,7 +4,7 @@ import logo from '../../assets/myLogo.png'
 
 export function Hero (){
     return (
-        <div className={styles.heroContainer}>
+        <div id='home' className={styles.heroContainer}>
             <img style={{width:200, height:200, borderRadius: '100%'}} src={logo} alt="Profile pic" />
             <div className={styles.description}>
                 <h1 style={{width:700, alignSelf: 'center'}}>I'am <span className={styles.name}>Tomas Banisevičius,</span> <br/> welcome to my portfolio page!</h1>
