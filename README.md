@@ -17,7 +17,7 @@ Site published at: https://tomasban1.github.io/portfolio-react/
 
 ## 🎯 Project features/goals
 
--   Learn about me in a fun and iteractive way!
+-   Learn about me in a fun and interactive way!
 
 ## 🧰 Getting Started
 
