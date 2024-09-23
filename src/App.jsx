@@ -1,4 +1,5 @@
 
+import { useState } from 'react'
 import './App.css'
 import { AboutMe } from './components/about-me/AboutMe'
 import { Footer } from './components/footer/Footer'
@@ -8,15 +9,15 @@ import { Portfolio } from './components/portfolio/Portfolio'
 
 
 function App() {
-  
+  const [menu, setMenu] = useState('home');
 
   return (
     <>
-      <Header />
-      <Hero />
+      <Header menu={menu} setMenu={setMenu} /> 
+      <Hero menu={menu} setMenu={setMenu} />
       <AboutMe />
       <Portfolio />
-      <Footer />
+      <Footer menu={menu} setMenu={setMenu} />
     </>
   )
 }

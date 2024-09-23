@@ -18,9 +18,9 @@ export const aboutMeData = [
     {
         cardName: 'My future',
         item1: "Hope to find a job in the field that I'm currently studying",
-        item2: 'Want to contribute to real projects, and in that way improve my knowledge and skils every day',
+        item2: 'Want to contribute to real projects, and in that way improve my knowledge and skills every day',
         item3: 'My goal is to continue challenging myself in every area of my life',
         item4: 'Hope to work in a friendly enviroment',
-        item5: 'Hope to have career oportunities',
+        item5: 'Hope to have career opportunities',
     },
 ]

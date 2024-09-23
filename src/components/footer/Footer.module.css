@@ -24,7 +24,7 @@
 .navMenu {
     display: flex;
     flex-direction: row;
-    gap: 30px;
+    gap: 85px;
     align-items: center;
     list-style: none;
     font-size: 20px;

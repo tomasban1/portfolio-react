@@ -1,4 +1,4 @@
-import hangman from '../../assets/hangman.png';
+import hangman from '../../assets/hangman2.jpg';
 import xoGame from '../../assets/xo.png';
 import toDoList from '../../assets/to-do-list.jpg';
 
@@ -21,7 +21,7 @@ export const portfolioData = [
         img: toDoList,
         summary: 'A to do list project',
         property1: 'Full CRUID functionality, create, update, delete',
-        property2: 'Labeling tasks, sorting, also has localstorage',
+        property2: 'Labeling tasks, sorting, notifications about task completion, alerts, error messages also has localstorage',
         link: 'https://tomasban1.github.io/todo/',
     },
 ]

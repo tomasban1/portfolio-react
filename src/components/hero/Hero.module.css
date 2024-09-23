@@ -60,6 +60,7 @@
     cursor: pointer;
     font-size: 22px;
     transition: 0.5s;
+    text-decoration: none;
 }
 .btnContactMe:hover{
     border: 1px solid #fff;
@@ -68,6 +69,10 @@
 .btnResume:hover{
     border-color: #8c1544;
     transform: scale(1.1);
+    
+}
+.anchorLink{
+    text-decoration: none;
 }
 
 .name{
