@@ -19,7 +19,6 @@ export function Portfolio(){
                 </ul>
               </div>
           )}
-        
         </div>
       </div>
     );

@@ -2,6 +2,7 @@
     font-family: 'outfit';
     color: white;
 }
+
 .heroContainer{
     display: flex;
     flex-direction: column;
@@ -62,15 +63,18 @@
     transition: 0.5s;
     text-decoration: none;
 }
+
 .btnContactMe:hover{
     border: 1px solid #fff;
     transform: scale(1.1);
 }
+
 .btnResume:hover{
     border-color: #8c1544;
     transform: scale(1.1);
     
 }
+
 .anchorLink{
     text-decoration: none;
 }

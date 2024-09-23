@@ -14,12 +14,23 @@ export function Footer({menu, setMenu}){
             <div className={styles.mainContainer}>
                 <div className={navStyle.navContainer}>
                         <ul className={styles.navMenu}>
-                            <li><AnchorLink className={navStyle.anchorLink} offset={50} href='#home'><p onClick={() => setMenu('home')} className={menu === 'home' ? navStyle.active : null}>Home</p></AnchorLink></li>
-                            <li><AnchorLink className={navStyle.anchorLink} offset={50} href='#about-me'><p onClick={() => setMenu('about')} className={menu === 'about' ? navStyle.active : null}>About me</p></AnchorLink></li>
-                            <li><AnchorLink className={navStyle.anchorLink} offset={50} href='#portfolio'><p onClick={() => setMenu('portfolio')} className={menu === 'portfolio' ? navStyle.active : null}>Portfolio</p></AnchorLink></li>
-                            
+                            <li>
+                                <AnchorLink className={navStyle.anchorLink} offset={50} href='#home'>
+                                    <p onClick={() => setMenu('home')} className={menu === 'home' ? navStyle.active : null}>Home</p>
+                                </AnchorLink>
+                            </li>
+                            <li>
+                                <AnchorLink className={navStyle.anchorLink} offset={50} href='#about-me'>
+                                    <p onClick={() => setMenu('about')} className={menu === 'about' ? navStyle.active : null}>About me</p>
+                                </AnchorLink>
+                            </li>
+                            <li>
+                                <AnchorLink className={navStyle.anchorLink} offset={50} href='#portfolio'>
+                                    <p onClick={() => setMenu('portfolio')} className={menu === 'portfolio' ? navStyle.active : null}>Portfolio</p>
+                                </AnchorLink>
+                            </li>
                         </ul>
-                 </div>
+                </div>
                 <img style={{width:100}} src={logo} alt="logo" />
                 <div className={styles.myInfo}>
                     <span style={{width:80, marginRight:'205'}}>My info:</span>

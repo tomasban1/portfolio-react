@@ -35,14 +35,7 @@ export function Header({menu, setMenu}){
                     </AnchorLink>
                 </li>
             </ul>
-            <div>
-           
-                
-            </div>
         </div>
-        
-     
-
      </header>
     );
 }

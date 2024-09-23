@@ -8,6 +8,7 @@
     justify-content: space-between;
     margin: 20px 50px;
 }
+
 .navMenu{
     display: flex;
     flex-direction: row;
@@ -22,15 +23,18 @@
     text-decoration: none;
 
 }
+
 .anchorLink:hover{
     transform: scale(1.1);
     cursor: pointer;
 }
+
 .active{
     background: linear-gradient(270deg, #1c2190 10%, #8c1544 100%);
     padding: 7px;
     border-radius: 20px;
 }
+
 .connect{
     padding: 10px 30px;
     border-radius: 50px;
@@ -39,6 +43,7 @@
     font-size: 22px;
     transition: 0.5s;
 }
+
 .connect:hover{
     transform: scale(1.1);
 }

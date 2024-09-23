@@ -4,7 +4,7 @@ import styles from './Hero.module.css';
 import logo from '../../assets/myLogo.png'
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 
-export function Hero ({menu, setMenu}){
+export function Hero ({setMenu}){
     return (
         <div id='home' className={styles.heroContainer}>
             <img style={{width:200, height:200, borderRadius: '100%'}} src={logo} alt="Profile pic" />
