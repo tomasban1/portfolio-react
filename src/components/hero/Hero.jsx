@@ -16,7 +16,7 @@ export function Hero ({setMenu}){
                  <AnchorLink className={styles.anchorLink} offset={50} href='#footer'>
                     <p onClick={() => setMenu('footer')} className={styles.btnContactMe}>Contact me!</p>
                 </AnchorLink>
-                <a className={styles.btnResume} href='https://www.cvbankas.lt/perziureti-mano-cv-234500332.html?pdf_cv=1' target='_blank'>My resume..</a>
+                <a className={styles.btnResume} href='https://drive.google.com/file/d/1JATdEG9VABbRlJReByKnRTmUZ9IjMEPX/view?usp=sharing' target='_blank'>My resume..</a>
             </div>
         </div>
     );

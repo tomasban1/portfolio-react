@@ -19,7 +19,7 @@
     height: 550px;
     border-width: 3px;
     border-style: solid;
-    border-image: linear-gradient(to bottom, #1c2190, rgba(0, 0, 0, 0)) 1 100%;
+    border-image: linear-gradient(to bottom, #1c2190, #161513) 1 100%;
     font-size: 20px;
         
 }
@@ -42,8 +42,10 @@
 }
 
 .gameSummary {
-    background: linear-gradient(270deg, #e2e2e2 10%, #ff0101 80%);
+    background: linear-gradient(270deg, #910A67 10%, #525CEB 80%);;
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
+/* linear-gradient(270deg, #910A67 10%, #525CEB 80%); */

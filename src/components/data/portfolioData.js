@@ -13,15 +13,15 @@ export const portfolioData = [
     {
         img: xoGame,
         summary: 'A Tic-tac-toe game I made with object oriented programing, simple, but fun to play',
-        property1: 'Has localstorage',
-        property2: 'Counts result, still working on upgrading it when I have free time',
+        property1: 'Has local storage',
+        property2: 'Highlights the winner, counts result',
         link: 'https://tomasban1.github.io/tic-tac-toe/',
     },
     {
         img: toDoList,
         summary: 'A to do list project',
-        property1: 'Full CRUID functionality, create, update, delete',
-        property2: 'Labeling tasks, sorting, notifications about task completion, alerts, error messages also has localstorage',
+        property1: 'Full CRUD functionality, create, update, delete',
+        property2: 'Labeling tasks, sorting, notifications about task completion, alerts, error messages, also has local storage',
         link: 'https://tomasban1.github.io/todo/',
     },
 ]
