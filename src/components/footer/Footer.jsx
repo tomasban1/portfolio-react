@@ -12,7 +12,7 @@ export function Footer({menu, setMenu}){
         <>
             <span id='footer' className={styles.line}></span>
             <div className={styles.mainContainer}>
-                <div className={navStyle.navContainer}>
+                <div className={styles.navContainer}>
                         <ul className={styles.navMenu}>
                             <li>
                                 <AnchorLink className={navStyle.anchorLink} offset={50} href='#home'>
@@ -31,7 +31,7 @@ export function Footer({menu, setMenu}){
                             </li>
                         </ul>
                 </div>
-                <img style={{width:100}} src={logo} alt="logo" />
+                <img className={styles.logo} src={logo} alt="logo" />
                 <div className={styles.myInfo}>
                     <span style={{width:80, marginRight:'205'}}>My info:</span>
                     <img className={styles.braces} src={curlyLeft} alt="" />

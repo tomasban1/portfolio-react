@@ -85,3 +85,12 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
+@media(max-width:450px){
+    .description h1 {
+        font-size: 28px;
+        }
+    .description p{
+        font-size: 20px;
+    }
+}

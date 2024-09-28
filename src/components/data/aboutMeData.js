@@ -9,10 +9,10 @@ export const aboutMeData = [
     },
     {
         cardName: 'My present',
-        item1: 'Currently studying IT in the Baltic Institute of Technology',
+        item1: 'Just finished Javascript program in the Baltic Institute of Technology',
         item2: 'While studying, I got some experience with: HTML, CSS, Javascript, ReactJs, ExpressJs and MySQL',
         item3: 'This is a university program, compressed to only 6 months',
-        item4: 'Studies will be finnished after 27th of september, 2024',
+        item4: 'Currently looking for a job, preferably in front-end, but also have some knowledge about back-end',
         item5: 'Have exellent english skills in speaking, as well as in writing',
     },
     {

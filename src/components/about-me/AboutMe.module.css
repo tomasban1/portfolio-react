@@ -33,14 +33,14 @@
 }
 
 .card {
-    height: 30rem;
+    height: 31rem;
     width: 20rem;
     position: relative;
     perspective: 150rem;
 }
 
 .cardSide {
-    height: 30rem;
+    height: 31rem;
     width: 20rem;
     border-radius: 20px;
     position: absolute;
@@ -97,5 +97,15 @@
 .card:hover{
     .list{
         transform: scale(1);
+    }
+}
+
+@media(max-width:450px){
+    .aboutMeSection h1{
+        font-size: 28px;
+    }
+    .aboutMeSection h2{
+        font-size: 20px;
+        max-width: 405px;
     }
 }
