@@ -26,6 +26,8 @@
     text-align: center;
     width: 70%;
     font-size: 40px;
+    align-self: center;
+    width: 700px;
 
 }
 .description p{
@@ -86,11 +88,13 @@
     -webkit-text-fill-color: transparent;
 }
 
-@media(max-width:450px){
+@media(max-width:460px){
     .description h1 {
-        font-size: 28px;
+        font-size: 31px;
+        width: 390px;
         }
     .description p{
-        font-size: 20px;
+        font-size: 25px;
+        width: 85%;
     }
 }

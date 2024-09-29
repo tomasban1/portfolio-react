@@ -52,13 +52,19 @@
     height: 85px;
 }
 
-@media(max-width:450px){
+@media(max-width:460px){
     .line{
         max-width: 440px;
         margin-left: 20px;
     }
     .mainContainer{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        flex-wrap: wrap;        
         gap: 0;
+        margin: 0;
+
     }
     .navContainer{
         display: none;
@@ -70,8 +76,8 @@
         display: none;
     }
     .myInfo div{
-        font-size: 18px;
-        width: 255px;
+        font-size: 17px;
+        width: 239px;
     }
     .myInfo span{
         width: 60px;

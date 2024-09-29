@@ -48,7 +48,7 @@
     transform: scale(1.1);
 }
 
-@media(max-width:450px){
+@media(max-width:460px){
     .navMenu{
         display: none;
     }
