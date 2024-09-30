@@ -16,7 +16,7 @@ export function Hero ({setMenu}){
                  <AnchorLink className={styles.anchorLink} offset={50} href='#footer'>
                     <p onClick={() => setMenu('footer')} className={styles.btnContactMe}>Contact me!</p>
                 </AnchorLink>
-                <a className={styles.btnResume} href='https://drive.google.com/file/d/1NibcApXrqsbbMpMTC8vI2rABPIgVWbLg/view?usp=sharing' target='_blank'>My resume..</a>
+                <a className={styles.btnResume} href='https://drive.google.com/file/d/1Id8nAKuKKXXKBWOPTMPYn29w1ZWcooMT/view?usp=sharing' target='_blank'>My resume..</a>
             </div>
         </div>
     );

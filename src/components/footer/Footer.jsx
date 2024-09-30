@@ -36,7 +36,7 @@ export function Footer({menu, setMenu}){
                     <span style={{width:80, marginRight:'205'}}>My info:</span>
                     <img className={styles.braces} src={curlyLeft} alt="" />
                     <div>
-                        <p>Email: tomasbanius@gmail.com</p>
+                        <p>Email: baniseviciustomas@gmail.com</p>
                         <p>Phone number: +37062464901</p>
                         <p>Socials: FB - Tomas Banisevičius</p>
                     </div>
