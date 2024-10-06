@@ -5,6 +5,7 @@ import { Footer } from './components/footer/Footer'
 import { Header } from './components/header/Header'
 import { Hero } from './components/hero/Hero'
 import { Portfolio } from './components/portfolio/Portfolio'
+import { Credentials } from './components/credentials/Credentials'
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
       <Hero menu={menu} setMenu={setMenu} />
       <AboutMe />
       <Portfolio />
+      <Credentials />
       <Footer menu={menu} setMenu={setMenu} />
     </>
   )

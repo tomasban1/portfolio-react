@@ -30,6 +30,11 @@ export function Header({menu, setMenu}){
                     </AnchorLink>
                 </li>
                 <li>
+                    <AnchorLink className={styles.anchorLink} offset={50} href='#credentials'>
+                        <p onClick={() => setMenu('credentials')} className={menu === 'credentials' ? styles.active : null}>Credentials</p>
+                    </AnchorLink>
+                </li>
+                <li>
                     <AnchorLink className={styles.anchorLink} offset={50} href='#footer'>
                         <p onClick={() => setMenu('footer')} className={menu === 'footer' ? styles.active : null}>Contact</p>
                     </AnchorLink>

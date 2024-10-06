@@ -38,7 +38,7 @@ export function Footer({menu, setMenu}){
                     <div>
                         <p>Email: baniseviciustomas@gmail.com</p>
                         <p>Phone number: +37062464901</p>
-                        <p>Socials: FB - Tomas Banisevičius</p>
+                        <p>LinkedIn - Tomas Banisevičius</p>
                     </div>
                     <img className={styles.braces} src={curlyRight} alt="" />
                 </div>
