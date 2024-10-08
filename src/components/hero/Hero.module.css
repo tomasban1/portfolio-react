@@ -1,6 +1,7 @@
 *{
     font-family: 'outfit';
     color: white;
+   
 }
 
 .heroContainer{
@@ -19,7 +20,7 @@
     text-align: center;
     justify-content: center;
     gap: 35px;
-    
+    backdrop-filter: blur(4px);
 }
 
 .description h1{
@@ -44,15 +45,69 @@
     gap: 25px;
 }
 
-.btnContactMe {
-    padding: 10px 20px;
-    border-radius: 50px;
-    background: linear-gradient(267deg, #1c2190 0.36%, #8c1544 102.06%);
-    color: white;
+.button85 {
+    padding: 0.6em 2em;
     border: none;
+    outline: none;
+    color: rgb(255, 255, 255);
+    background: #111;
     cursor: pointer;
+    position: relative;
+    z-index: 0;
+    border-radius: 50px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
     font-size: 22px;
-    transition: 0.5s;
+}
+
+.button85:before {
+    content: "";
+    background: linear-gradient(45deg, #48ff00, #347928);
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    -webkit-filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing-button-85 20s linear infinite;
+    transition: opacity 0.3s ease-in-out;
+    border-radius: 50px;
+}
+
+@keyframes glowing-button-85 {
+    0% {
+        background-position: 0 0;
+    }
+
+    50% {
+        background-position: 400% 0;
+    }
+
+    100% {
+        background-position: 0 0;
+    }
+}
+
+.button85:after {
+    z-index: -1;
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    /* background: #161513; */
+    background: #00712D;
+    left: 0;
+    top: 0;
+    border-radius: 50px;
+}
+
+.button85:hover {
+    transform: scale(1.1);
+    transition: 0.3s ease-in-out;
 }
 
 .btnResume{
@@ -72,7 +127,7 @@
 }
 
 .btnResume:hover{
-    border-color: #8c1544;
+    border-color: #0f0;
     transform: scale(1.1);
     
 }
@@ -82,7 +137,7 @@
 }
 
 .name{
-    background: linear-gradient(270deg, #1c2190 10%, #8c1544 100%);
+    background: seagreen;
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;

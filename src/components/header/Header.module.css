@@ -30,9 +30,10 @@
 }
 
 .active{
-    background: linear-gradient(270deg, #1c2190 10%, #8c1544 100%);
+    backdrop-filter: blur(4px);
     padding: 7px;
     border-radius: 20px;
+    border: 2px solid #fff;
 }
 
 .connect{

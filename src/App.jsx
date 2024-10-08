@@ -6,6 +6,7 @@ import { Header } from './components/header/Header'
 import { Hero } from './components/hero/Hero'
 import { Portfolio } from './components/portfolio/Portfolio'
 import { Credentials } from './components/credentials/Credentials'
+import MatrixRainingCode from './components/Matrix'
 
 
 function App() {
@@ -13,12 +14,21 @@ function App() {
 
   return (
     <>
-      <Header menu={menu} setMenu={setMenu} /> 
-      <Hero menu={menu} setMenu={setMenu} />
-      <AboutMe />
-      <Portfolio />
-      <Credentials />
-      <Footer menu={menu} setMenu={setMenu} />
+     <div className="min-h-screen">
+      <MatrixRainingCode className="absolute inset-0" />
+      <div className="flex flex-col">
+          <Header menu={menu} setMenu={setMenu} /> 
+          <Hero menu={menu} setMenu={setMenu} />
+          <AboutMe />
+          <Portfolio />
+          <Credentials />
+          <Footer menu={menu} setMenu={setMenu} />
+      </div>
+    </div>
+
+
+      
+     
     </>
   )
 }

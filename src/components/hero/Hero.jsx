@@ -14,10 +14,11 @@ export function Hero ({setMenu}){
             </div>
             <div className={styles.btnContainer}>
                  <AnchorLink className={styles.anchorLink} offset={50} href='#footer'>
-                    <p onClick={() => setMenu('footer')} className={styles.btnContactMe}>Contact me!</p>
+                    <button onClick={() => setMenu('footer')} className={styles.button85} role="button">Contact Me!</button>
                 </AnchorLink>
                 <a className={styles.btnResume} href='https://drive.google.com/file/d/1Id8nAKuKKXXKBWOPTMPYn29w1ZWcooMT/view?usp=sharing' target='_blank'>My resume..</a>
             </div>
         </div>
     );
 }
+

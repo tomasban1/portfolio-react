@@ -7,7 +7,8 @@
     height: 5px;
     border-radius: 100%;
     display: block;
-    background: linear-gradient(270deg, #1c2190 10%, #8c1544 100%);
+    /* background: linear-gradient(270deg, #1c2190 10%, #8c1544 100%); */
+    background-color: green;
     margin-left: 70px;
 
 }
@@ -44,7 +45,7 @@
 .myInfo{
     display: flex;
     flex-direction: row;
-  
+    backdrop-filter: blur(4px);
     align-items: center;
     font-size: 20px;
 }
