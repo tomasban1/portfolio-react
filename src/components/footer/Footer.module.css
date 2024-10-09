@@ -31,6 +31,7 @@
 }
 .logo{
     width: 100px;
+    height: 80px;
 }
 .navMenu {
     display: flex;

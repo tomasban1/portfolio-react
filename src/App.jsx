@@ -6,10 +6,10 @@ import { Header } from './components/header/Header'
 import { Hero } from './components/hero/Hero'
 import { Portfolio } from './components/portfolio/Portfolio'
 import { Credentials } from './components/credentials/Credentials'
-import MatrixRainingCode from './components/Matrix'
+import MatrixRainingCode from './components/MatrixRainingCode'
 
 
-function App() {
+function App() { 
   const [menu, setMenu] = useState('home');
 
   return (

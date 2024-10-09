@@ -2,7 +2,7 @@
 import styles from './Footer.module.css';
 import navStyle from '../header/Header.module.css';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
-import logo from '../../assets/logo.svg';
+import logo from '../../assets/logo.png';
 import curlyLeft from '../../assets/curly-left.png';
 import curlyRight from '../../assets/curly-right.png';
 
