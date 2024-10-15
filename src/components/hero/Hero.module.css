@@ -37,6 +37,7 @@
     font-size: 24px;
     line-height: 40px;
     backdrop-filter: blur(10px);
+    border-radius: 30px;
 }
 
 .btnContainer {
@@ -128,7 +129,7 @@
 }
 
 .btnResume:hover{
-    border-color: #0f0;
+    border-color: #1e6744;
     transform: scale(1.1);
     
 }
