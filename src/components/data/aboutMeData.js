@@ -13,7 +13,7 @@ export const aboutMeData = [
         item2: 'While studying, I got some experience with: HTML, CSS, Javascript, ReactJs, ExpressJs and MySQL',
         item3: 'This is a university program, compressed to only 6 months',
         item4: 'Currently looking for a job, preferably in front-end, but also have some knowledge about back-end',
-        item5: 'Have exellent english skills in speaking, as well as in writing',
+        item5: 'Have excellent english skills in speaking, as well as in writing',
     },
     {
         cardName: 'My future',
