@@ -12,7 +12,7 @@ export const aboutMeData = [
         item1: 'Just finished Javascript program (880 hours) in the Baltic Institute of Technology',
         item2: 'While studying, I got some experience with: HTML, CSS, Javascript, ReactJs, ExpressJs and MySQL',
         item3: 'This is a 4 year university program, compressed to only 6 months',
-        item4: 'Currently looking for a job, preferably in front-end, but also have some knowledge about back-end',
+        item4: "Currently looking for a job, front-end, would also like to learn more about AI, and it's implementation to anything tech related",
         item5: 'Have excellent english skills in speaking, as well as in writing',
     },
     {
