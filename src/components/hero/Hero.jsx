@@ -10,7 +10,7 @@ export function Hero ({setMenu}){
             <img style={{width:200, height:200, borderRadius: '100%'}} src={logo} alt="Profile pic" />
             <div className={styles.description}>
                 <h1 className={styles.descHeading}>I'am <span className={styles.name}>Tomas Banisevičius,</span> <br/> welcome to my portfolio page!</h1>
-                <p>Here you can learn some basic things about me, what I am doing now, and what are my goals - expectations for the future, as well as look at some of my projects, that I have made so far! My info is in my resume and at the end of the page, in case you want to contact me!</p>
+                <p>Here you can learn some basic things about me, and what are my goals - expectations for the future, as well as look at some of my projects, that I have made so far! My info is in my resume and at the end of the page, in case you want to contact me! Also, check out the fitness AI chat agent that I created, it's at the bottom right corner. Type your fitness goal, and it will help you, weather you want to loose weight or gain some muscle!💪</p>
             </div>
             <div className={styles.btnContainer}>
                  <AnchorLink className={styles.anchorLink} offset={50} href='#footer'>
